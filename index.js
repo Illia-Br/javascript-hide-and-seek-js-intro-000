@@ -20,7 +20,7 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   find = document.querySelector('#grand-node')
-  let count = [0]
+  let count = []
   while (find.children[0]) {
     count = count.push(find.children[0])
     find = find.children[0]
