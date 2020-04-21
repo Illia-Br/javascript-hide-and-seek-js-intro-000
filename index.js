@@ -22,7 +22,7 @@ function deepestChild() {
   find = document.querySelector('#grand-node')
   let count = []
   while (find.children[0]) {
-    count = count.push(find.children[0])
+    count.push(find.children[0])
     find = find.children[0]
   }
   return count[count.length]
