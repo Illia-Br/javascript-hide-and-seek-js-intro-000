@@ -11,7 +11,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < find.length; i++) {
   find.children[i].innerHTML = (parseInt(find.children[i].innerHTML, 10) + n).toString();
  }
- //return find
+ return find
 }
 
 function deepestChild() {
