@@ -27,4 +27,3 @@ function deepestChild() {
   }
   return count[count.length-1]
 }
-
