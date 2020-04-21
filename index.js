@@ -25,5 +25,5 @@ function deepestChild() {
     count.push(find.children[0])
     find = find.children[0]
   }
-  return count[count.length].innerHTML
+  return count[count.length]
 }
